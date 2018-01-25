@@ -10,10 +10,13 @@ dobro = (a) =>{
     return 2 * a
 }
 
-// com retorno implicioto 
+// função arrow function redusida, com return implicioto 
 
 dobro =  a => 2 * a
-console.log(dobro(Math.PI))
+
+//teste
+console.log(dobro(Math.PI)) //para testa o dobro do pi 3,1415...
+
 
 //###########################
 
