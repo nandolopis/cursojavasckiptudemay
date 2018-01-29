@@ -1,5 +1,5 @@
 let comparaComThis =  function (param) {
-    console.log(this === param)
+    console.log(`Se ${param} é igual a this = `,this === param)
 }
 comparaComThis(global)
 comparaComThis(this)
@@ -13,7 +13,7 @@ comparaComThis(obj)
 console.log('')
 
 // explo com arrow function
-let comporaComThisArrow =  param => console.log(this === param)
+let comporaComThisArrow =  param => console.log(`Se ${param} é igual a this = `,this === param)
 comporaComThisArrow(global)
 comporaComThisArrow(module.exports)
 comporaComThisArrow(this)
