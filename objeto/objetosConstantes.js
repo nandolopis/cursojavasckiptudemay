@@ -6,7 +6,7 @@ console.log(pessoa)
 // pessoa -> 456 -> {...}
 // pessoa = { nome: 'Ana' }
 
-Object.freeze(pessoa)
+Object.freeze(pessoa) //transforma um obj em constante
 
 pessoa.nome = 'Maria'
 pessoa.end = 'Rua ABC'

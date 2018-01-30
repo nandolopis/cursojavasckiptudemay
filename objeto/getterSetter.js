@@ -4,9 +4,11 @@ const sequencia = {
     set valor(valor) { 
         if(valor > this._valor) {
             this._valor = valor
+        }else{
+            console.log("Sequencia violada!")
         }
     }
-}
+}  
 
 console.log(sequencia.valor, sequencia.valor)
 sequencia.valor = 1000

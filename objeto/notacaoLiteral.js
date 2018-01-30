@@ -4,7 +4,8 @@ const c = 3
 
 const obj1 = { a: a, b: b, c: c }
 const obj2 = { a, b, c }
-console.log(obj1, obj2)
+const objMudar = { nomeA: a, nomeB: b, nomeC: c }
+console.log(obj1, obj2, objMudar)
 
 const nomeAttr = 'nota'
 const valorAttr = 7.87
@@ -20,6 +21,7 @@ const obj5 = {
     funcao1: function() {
         // ...
     },
+    //forma menor add no es2015
     funcao2() {
         // ...
     }

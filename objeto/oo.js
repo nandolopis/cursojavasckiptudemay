@@ -3,7 +3,8 @@
 // Procedural
 processamento(valor1, valor2, valor3)
 
- // OO
+
+ // Orientada a Objeto
  objeto = {
      valor1,
      valor2,
@@ -16,7 +17,7 @@ processamento(valor1, valor2, valor3)
  objeto.processamento() // Foco passou a ser o objeto
 
  // Principios importantes:
- // 1. abstracao
- // 2. encapsulamento
+ // 1. abstracao. é pega um obj do mundo real e tenta abstrair ele para dentro do sistema 
+ // 2. encapsulamento.  
  // 3. herança (prototype)
  // 4. polimorfismo
