@@ -19,3 +19,6 @@ class Filho extends Pai {
 
 const filho = new Filho
 console.log(filho)
+
+const filho2 = new Filho('Pereira')
+console.log(filho2)

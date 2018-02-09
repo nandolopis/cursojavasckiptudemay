@@ -4,8 +4,12 @@ const nums = [1, 2, 3, 4, 5]
 let resultado = nums.map(function(e) {
     return e * 2
 })
-
 console.log(resultado)
+
+let resultado2 = nums.map(function(e) {
+    return e + 5
+})
+console.log(resultado2)
 
 const soma10 = e => e + 10
 const triplo = e => e * 3

@@ -1,6 +1,6 @@
 
 
-function recluta(nome, midInicial, quantidadeDeCiclos){
+function recruta(nome, midInicial, quantidadeDeCiclos){
     let totaldemidi = midInicial
     let status = "Padawan"
 
@@ -29,8 +29,8 @@ function recluta(nome, midInicial, quantidadeDeCiclos){
     }
 }
 
-console.log(recluta("fernando", 1200,20))
-console.log(recluta("Helene", 200,5))
+console.log(recruta("fernando", 1200,20))
+console.log(recruta("Helene", 200,5))
 
-const obj = new recluta("Artur", 1000,5)
+const obj = new recruta("Artur", 1000,5)
 console.log(`O Recruta ${obj.nome} com ${obj.midInicial} Midclorians iniciais e com ${obj.quantidadeDeCiclos} ciclos de treinamento para fazer, vai se tornar um ${obj.status} com o total de ${obj.totaldemidi}`)

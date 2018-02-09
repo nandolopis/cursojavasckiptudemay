@@ -1,14 +1,14 @@
 const pilotos = ['Vettel', 'Alonso', 'Raikkonen', 'Massa']
-pilotos.pop() // massa quebrou o carro!
+pilotos.pop() // massa quebrou o carro! pop remove o ultimo elemento do array
 console.log(pilotos)
 
-pilotos.push('Verstappen')
+pilotos.push('Verstappen') //push add elemento do array
 console.log(pilotos)
 
-pilotos.shift() // remove o primeiro!
+pilotos.shift() // remove o primeiro elelmento do array!
 console.log(pilotos)
 
-pilotos.unshift('Hamilton')
+pilotos.unshift('Hamilton') //add um elemento do primeiro indice
 console.log(pilotos)
 
 // splice pode adicionar e remover elementos
@@ -21,7 +21,7 @@ console.log(pilotos)
 pilotos.splice(3, 1) // massa quebrou :(
 console.log(pilotos)
 
-const algunsPilotos1 = pilotos.slice(2) // novo array
+const algunsPilotos1 = pilotos.slice(2) // gera um novo array
 console.log(algunsPilotos1)
 
 const algunsPilotos2 = pilotos.slice(1, 4)

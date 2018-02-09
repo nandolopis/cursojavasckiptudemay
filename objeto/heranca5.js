@@ -15,6 +15,7 @@ Array.prototype.first = function() {
 console.log([1, 2, 3, 4, 5].first())
 console.log(['a', 'b', 'c'].first())
 
+//subistituir uma função que ja existe (nao pode fazer)
 String.prototype.toString = function () {
     return 'Lascou tudo'
 }
